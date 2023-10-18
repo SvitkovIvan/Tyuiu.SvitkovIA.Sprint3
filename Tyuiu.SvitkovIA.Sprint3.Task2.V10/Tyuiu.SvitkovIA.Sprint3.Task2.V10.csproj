@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AD500888-7543-4B19-9878-A2B099E395D2}</ProjectGuid>
+    <ProjectGuid>{EF751862-A11B-48E2-B5E6-0947D434A167}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Tyuiu.SvitkovIA.Sprint3.Task2.V10</RootNamespace>
     <AssemblyName>Tyuiu.SvitkovIA.Sprint3.Task2.V10</AssemblyName>
@@ -48,6 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.SvitkovIA.Sprint3.Task2.V10.Lib\Tyuiu.SvitkovIA.Sprint3.Task2.V10.Lib.csproj">
+      <Project>{c30bbdf1-b921-4b0b-8885-154f5d946721}</Project>
+      <Name>Tyuiu.SvitkovIA.Sprint3.Task2.V10.Lib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
