@@ -15,7 +15,7 @@ namespace Tyuiu.SvitkovIA.Sprint3.Task2.V10.Lib
             double multSeries = 1;
             do
             {
-                multSeries = multSeries * ((Math.Pow(value, startValue) + 1 / startValue + 1));
+                multSeries = multSeries * ((Math.Pow(value, startValue) + 1.0 / startValue + 1.0));
                 startValue++;
             } while (startValue <= stopValue);
             return Math.Round(multSeries, 3);
