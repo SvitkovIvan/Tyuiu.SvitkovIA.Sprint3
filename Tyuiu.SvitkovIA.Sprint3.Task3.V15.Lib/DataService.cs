@@ -20,7 +20,7 @@ namespace Tyuiu.SvitkovIA.Sprint3.Task3.V15.Lib
             {
                 for (int i = 1; i < word.Length; i++)
                 {
-                    if (word[i - 1] == 'm' && word[i] == 'mm')
+                    if (word[i - 1] == 'm' && word[i] == 'm')
                     {
                         count++;
                     }
