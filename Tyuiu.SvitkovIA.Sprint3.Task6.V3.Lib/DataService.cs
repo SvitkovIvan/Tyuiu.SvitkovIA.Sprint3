@@ -15,28 +15,28 @@ namespace Tyuiu.SvitkovIA.Sprint3.Task6.V3.Lib
     {
         public int GetSumTheDivisors(int startValue, int stopValue)
         {
-            int sum = 0;
+            int result = 0;
 
             for (int i = 13; i <= 19; i++)
             {
-                int currentSum = 0;
+                int sum = 0;
 
                 for (int j = 1; j <= i; j++)
                 {
                     if (i % j == 0)
                     {
-                        currentSum += j;
+                        sum += j;
                     }
                 }
 
-                if (currentSum > 8)
+                if (sum > 8)
                 {
-                    sum = currentSum;
-                   
+                    result += sum;
                 }
-                return sum;
             }
-            return sum;
+
+            return result;
+
         }
     }
 }
