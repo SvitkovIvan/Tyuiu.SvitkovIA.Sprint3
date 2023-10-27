@@ -20,7 +20,7 @@ namespace Tyuiu.SvitkovIA.Sprint3.Task7.V11.Test
             valueWaitArray[3] = 7.43;
             valueWaitArray[4] = 4.33;
             valueWaitArray[5] = 1.0;
-            valueWaitArray[6] = 0.0;
+            valueWaitArray[6] = 0.00;
             valueWaitArray[7] = -8.87;
             valueWaitArray[8] = -13.03;
             valueWaitArray[9] = -16.53;
