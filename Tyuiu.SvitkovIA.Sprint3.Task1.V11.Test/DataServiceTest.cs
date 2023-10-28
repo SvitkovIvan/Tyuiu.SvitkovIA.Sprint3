@@ -23,6 +23,7 @@ namespace Tyuiu.SvitkovIA.Sprint3.Task1.V11.Test
 
             Assert.AreEqual(wait, res);
 
+
         }
     }
 }

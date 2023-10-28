@@ -12,6 +12,7 @@ namespace Tyuiu.SvitkovIA.Sprint3.Task3.V15.Lib
     {
         public int GetMinCharCount(string value, char item)
         {
+
             string input = "lrmmse mg sermmmrt";
             int count = 0;
             string[] words = input.Split(' ');

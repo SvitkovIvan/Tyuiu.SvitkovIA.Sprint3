@@ -17,7 +17,7 @@ namespace Tyuiu.SvitkovIA.Sprint3.Task7.V11.Lib
             int count = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                y = Math.Round(((Math.Cos(x) / 1) + (Math.Sin(x) / (2 - 2 * x)) - 4 * x), 2);
+                y = Math.Round(((Math.Cos(x) / 1) + (Math.Sin(x) / (2 - 2 * x)) - 4 *  x),  2);
                 valueArray[count++] = y;
             }
             return valueArray;
