@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9E80B6EB-9C84-4E92-B3F4-B9D06CFE9722}</ProjectGuid>
+    <ProjectGuid>{538D75C6-301F-4172-8AE2-BFFF1561099E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.SvitkovIA.Sprint3.Task7.V11.Test</RootNamespace>
-    <AssemblyName>Tyuiu.SvitkovIA.Sprint3.Task7.V11.Test</AssemblyName>
+    <RootNamespace>Tyuiu.SvitkovIA.Sprint3.Task7.V9.Test</RootNamespace>
+    <AssemblyName>Tyuiu.SvitkovIA.Sprint3.Task7.V9.Test</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.SvitkovIA.Sprint3.Task7.V11.Lib\Tyuiu.SvitkovIA.Sprint3.Task7.V11.Lib.csproj">
-      <Project>{925dde77-343b-49bd-9392-a780c661a842}</Project>
-      <Name>Tyuiu.SvitkovIA.Sprint3.Task7.V11.Lib</Name>
+    <ProjectReference Include="..\Tyuiu.SvitkovIA.Sprint3.Task7.V9.Lib\Tyuiu.SvitkovIA.Sprint3.Task7.V9.Lib.csproj">
+      <Project>{9ccff7cc-4ea2-40ae-b885-70226d4b00d9}</Project>
+      <Name>Tyuiu.SvitkovIA.Sprint3.Task7.V9.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

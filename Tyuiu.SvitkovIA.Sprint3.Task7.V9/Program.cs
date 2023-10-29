@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Tyuiu.SvitkovIA.Sprint3.Task7.V11.Lib;
+using Tyuiu.SvitkovIA.Sprint3.Task7.V9.Lib;
 
-namespace Tyuiu.SvitkovIA.Sprint3.Task7.V11
+namespace Tyuiu.SvitkovIA.Sprint3.Task7.V9
 {
     class Program
     {
@@ -19,7 +19,7 @@ namespace Tyuiu.SvitkovIA.Sprint3.Task7.V11
             Console.WriteLine("* Спринт #3                                                               *");
             Console.WriteLine("* Тема: Добавление к решению итоговых проектов по спринту                 *");
             Console.WriteLine("* Задание #7                                                              *");
-            Console.WriteLine("* Вариант #11                                                             *");
+            Console.WriteLine("* Вариант #9                                                              *");
             Console.WriteLine("* Выполнил: Свитков Иван Андреевич | АСОиУб-23-2                          *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -56,6 +56,7 @@ namespace Tyuiu.SvitkovIA.Sprint3.Task7.V11
             Console.WriteLine("+----------+-----------+");
 
             Console.ReadKey();
+
         }
     }
 }
